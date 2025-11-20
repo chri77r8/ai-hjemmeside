@@ -34,7 +34,7 @@ function mistralChat(prompt, apiKey) {
         });
 }
 
-result.addEventListener("click", function () {
+result.addEventListener("click",  () => {
     let apiKeyValue = yourApiKey.value
     let foodMoodValue = foodMood.value
     let ingredientsValue = ingredients.value
